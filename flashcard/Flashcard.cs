@@ -1,17 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-public class Flashcard
+﻿namespace Flashcards
 {
-    public string Polish { get; set; }
-    public string English { get; set; }
-
-    public Flashcard(string polish, string english)
+    public class Flashcard
     {
-        Polish = polish;
-        English = english;
+        public string Polish { get; set; } = "";
+        public string English { get; set; } = "";
+        public string Category { get; set; } = "Podstawowe";
+        public string Difficulty { get; set; } = "Średnie";
+        public int TimesCorrect { get; set; } = 0;
+        public int TimesWrong { get; set; } = 0;
+
+        public Flashcard() { }
+        public Flashcard(string pl, string en, string cat = "Podstawowe")
+        {
+            Polish = pl; English = en; Category = cat;
+        }
     }
 }
