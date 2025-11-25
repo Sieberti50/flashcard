@@ -1,0 +1,10 @@
+dom;house
+kot;cat
+pies;dog
+ksi¹¿ka;book
+samochód;car
+drzewo;tree
+woda;water
+s³oñce;sun
+ksiê¿yc;moon
+mi³oœæ;love
